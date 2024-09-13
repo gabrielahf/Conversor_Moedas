@@ -1,5 +1,4 @@
 
-
 const country_code = [
     { value: "AR", label: "ARG" },
     { value: "BO", label: "BOL" },
@@ -94,12 +93,13 @@ async function pegarTaxaConversao (moedaDe, moedaPara) {
     let url = "https://economia.awesomeapi.com.br/last/"+moedasRequest;
     console.log(url);
     let moedasJson = moedaDe+moedaPara;
+    console.log(moedasJson);
     const request = new Request(url) ;
     let taxaConversao;
     const result = await fetch(request)
     dados = await result.json()
     taxaConversao = dados[moedasJson].ask;
-    taxaConversao
+    
 
     return taxaConversao;
 }
@@ -126,8 +126,7 @@ function pegarCodigoDaMoeda(SiglaPais){
 
 
 
-for (let i = 0; i<country_code.length; i++)
-console.log(pegarCodigoDaMoeda("BR"));
+console.log(pegarTaxaConversao("USD", "BR"));
 
 
 
