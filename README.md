@@ -3,7 +3,7 @@
 
 **Projeto**
 
-[Modelo Calculadora](https://www.figma.com/file/Lfmj9HfPJb1w2LORQWP8Wn/iPhone-Calculator-(Community)?type=design&node-id=1-74&mode=design&t=5eufEaLHGOLYFe81-0)
+[Figma](https://www.figma.com/design/09yldzYB6QhR5VZOyEzODl/Conversor_Moeda?node-id=0-1&node-type=canvas&t=uMmKiRLlV8EpAzpK-0)
 
 
 **Grupo de Estudos**
